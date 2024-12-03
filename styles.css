@@ -8,6 +8,10 @@ body {
   overflow: hidden;
 }
 
+a {
+  text-decoration: none;
+}
+
 buh {
   padding-left: 50px;
   color: black;
@@ -22,22 +26,29 @@ buh:hover {
 
 buh:hover baiii {
   color: white;
-  transition: 0.3s;
 }
 
 buh:hover haiii {
   color: white;
-}
-
-haiii {
-  font-family: 'Times New Roman', Times, serif;
-  font-size: 100px;
   transition: 0.1s;
 }
 
-baiii {
-  font-family: 'Times New Roman', Times, serif;
+haiii {
+  font-family: "Mada", sans-serif;
+  font-optical-sizing: auto;
   font-size: 100px;
+  font-weight: 500;
+  font-style: normal;
+  color: black;
+  transition: 0.3s;
+}
+
+baiii {
+  font-family: "Mada", sans-serif;
+  font-optical-sizing: auto;
+  font-size: 100px;
+  font-weight: 500;
+  font-style: normal;
   color: #ffb1f1;
   transition: 0.3s;
 }
