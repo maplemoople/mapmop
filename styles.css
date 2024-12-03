@@ -1,3 +1,43 @@
 body {
   background-color: #ffb1f1;
+  display: flex;
+  flex: 1;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  overflow: hidden;
+}
+
+buh {
+  padding-left: 50px;
+  color: black;
+  transition: 0.3s;
+}
+
+buh:hover {
+  background-color: transparent;
+  color: white;
+  cursor: pointer;
+}
+
+buh:hover baiii {
+  color: white;
+  transition: 0.3s;
+}
+
+buh:hover haiii {
+  color: white;
+}
+
+haiii {
+  font-family: 'Times New Roman', Times, serif;
+  font-size: 100px;
+  transition: 0.1s;
+}
+
+baiii {
+  font-family: 'Times New Roman', Times, serif;
+  font-size: 100px;
+  color: #ffb1f1;
+  transition: 0.3s;
 }
